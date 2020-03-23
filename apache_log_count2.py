@@ -27,3 +27,7 @@ if __name__ == '__main__':
     print(result1)
     print(result2)
     print(result3)
+    l1 = list(result1.items())  #将结果转换为列表
+    l1.sort(key=lambda seq: seq[-1], reverse=True)  #排序
+    print(l1[:5])  #取出访问量top5  
+
