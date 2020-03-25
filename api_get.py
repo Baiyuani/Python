@@ -1,4 +1,3 @@
-import json
 import requests
 
 url = 'http://jisutqybmf.market.alicloudapi.com/weather/query'
