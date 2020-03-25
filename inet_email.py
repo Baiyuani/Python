@@ -21,8 +21,8 @@ def send_email(body, sender, receivers, subject, server, passwd):
 
 if __name__ == '__main__':
     body = 'Python发送邮件测试\n'
-    sender = '1036354613@qq.com'
-    receivers = ['13835518617@163.com', '1036354613@qq.com']
+    sender = '103635xxxx@qq.com'
+    receivers = ['138xxxxxxxx@163.com', '103635xxxx@qq.com']
     subject = 'py test'
     server = 'smtp.qq.com'
     passwd = getpass()
